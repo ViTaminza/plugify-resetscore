@@ -1,0 +1,24 @@
+"Phrases"
+{   
+    "language"  "ru"
+
+	"Prefix"
+	{
+		"ru"	"[{RED}RS{DEFAULT}]"
+		"ua"	"[{RED}RS{DEFAULT}]"
+		"en"	"[{RED}RS{DEFAULT}]"
+		"lv"	"[{RED}RS{DEFAULT}]"
+		"pl"	"[{RED}RS{DEFAULT}]"
+		"cz"	"[{RED}RS{DEFAULT}]"
+	}
+
+	"Success"
+	{
+		"ru"	"{PURPLE}Вы успешно сбросили свой счёт"
+		"ua"	"{PURPLE}Ви обнулили свій рахунок!"
+		"en"    "{PURPLE}Your score has been reset!"
+		"lv"	"{PURPLE}Tavs rekords tika  izdzēsts !"
+		"pl"	"{PURPLE}Twój wynik został zresetowany!"
+		"cz"    "{PURPLE}Vaše skóre bylo resetováno!"
+	}
+}
