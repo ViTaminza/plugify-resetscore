@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/untrustedmodders/plugify/refs/heads/main/schemas/plugin.schema.json",
+	"version": "${RESETSCORE_VERSION}",
+	"name": "resetscore",
+	"description": "Client command that resets the caller's score, MVPs and match stats ('mm_rs', 'sm_rs', 'rs' or '!rs'). A port of the Metamod:Source plugin 'ResetScore' by Pisex; resetscore.phrases.txt (the original translations) keeps the original layout.",
+	"author": "Pisex, ported to Plugify",
+	"website": "https://github.com/untrustedmodders/plugify",
+	"license": "GPL-3.0",
+	"entry": "bin/resetscore",
+	"platforms": [],
+	"language": "cpp",
+	"dependencies": [
+		{
+			"name": "s2sdk",
+			"constraints": ">=2.18.2"
+		},
+		{
+			"name": "hudmenu",
+			"constraints": ">=1.0.0",
+			"optional": true
+		}
+	],
+	"methods": []
+}
